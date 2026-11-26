@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>local.wallpaper.rotate.hourly</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/<user>/Library/Application Support/WallpaperRotate/rotate</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>3600</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/<user>/Library/Logs/wallpaper-rotate.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/<user>/Library/Logs/wallpaper-rotate.err.log</string>
+</dict>
+</plist>
